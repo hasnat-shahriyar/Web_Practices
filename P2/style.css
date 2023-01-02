@@ -1,0 +1,22 @@
+/* External CSS */
+img {
+    width: 400px;
+    height: 400px;
+}
+
+p1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color: rgb(8, 217, 8);
+}
+p2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color: rgb(8, 217, 8);
+}
+
+h1{
+    color: red;
+}
+
+/* CSS always override the previous element if used twice */

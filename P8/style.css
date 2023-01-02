@@ -1,0 +1,7 @@
+.bg_fixed{
+    background-image: url(918477.jpg);
+    background-repeat: no-repeat;
+    color: rgb(106, 149, 187);
+    height: 600px;
+    background-attachment: fixed;
+}

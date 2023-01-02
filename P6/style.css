@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(248, 248, 248);
+}
+.block1{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 5, 81);
+    float: left;
+}
+
+.block2{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 8, 8);
+    float: left;
+}
+
+.block3{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(50, 133, 108);
+    float: right;   
+}
+
+/* To place the block level elements side by side from up and downs we use float : left/right  */

@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(37, 37, 37);
+}
+#Mother {
+    margin-left: 500px;
+    margin-top: 50px;
+    border: 1px solid rgb(205, 107, 16);
+    width: 500px;
+    height: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: scroll;
+}
+/* We use overflow : hidden to hide the content outside the border and overflow : scroll to hide but can see the hidden item by scrolling */
+
+.Children_2 span{
+    color: white;
+    display: inline;
+}
+
+.Children_1 span {
+    display: block;
+}
+
+/* To convert an inline element into a block level element we use display : block and a block level element into an inline element we use display : inline */
+
+.Children_1 {
+    color: rgb(38, 153, 124);
+}
+.Children_2 {
+    color: rgb(205, 107, 16);
+}
