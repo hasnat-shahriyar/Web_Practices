@@ -1,0 +1,39 @@
+/* Visited */
+a{
+    color: rgb(32, 149, 110);
+}
+
+a:visited{
+    color: red;
+}
+/* Focus */
+.text{
+    width: 200px;
+}
+.text:focus{
+    color: rgb(32, 149, 110);
+}
+
+/* First Child, nth Child, Last Child */
+/* First Child */
+li:first-child{
+    color: orange;
+}
+/* nth Child */
+li:nth-child(3n){
+    color: lightblue;
+}
+
+/* Last Child */
+li:last-child{
+    color: red;
+}
+
+/* Before and After */
+/* Before */
+h1::before{
+    content: "Number - ";
+}
+h1::after{
+    content: '!';
+}
