@@ -1,0 +1,23 @@
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  /* display: inline-block; */
+}
+
+.rose {
+  background-color: #ff007f; /* Rose color */
+}
+
+.yellow-green {
+  background-color: #9acd32; /* Yellow-green color */
+}
+
+.blue {
+  background-color: #6495ed; /* Blue color */
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
